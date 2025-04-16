@@ -1,5 +1,7 @@
 import models.Persona;
 import controllers.MetodosBusqueda;
+import controllers.MetodosBusquedaBinaria;
+
 public class App {
     public static void main(String[] args) throws Exception {
         Persona [] personas = new Persona[7];
@@ -10,6 +12,7 @@ public class App {
         personas[4] = new Persona("Luis",105);
         personas[5] = new Persona("Sofia",106);
         personas[6] = new Persona("Pedro",107);
-        MetodosBusqueda mB = new MetodosBusqueda(personas);
+        //MetodosBusqueda mB = new MetodosBusqueda(personas);
+        MetodosBusquedaBinaria mBB = new MetodosBusquedaBinaria(personas);
     }
 }
