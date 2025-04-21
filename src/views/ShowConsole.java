@@ -6,15 +6,15 @@ public class ShowConsole{
     Scanner scanner = new Scanner(System.in);
 
     public void showMenu(){
-        System.out.println("Metodo Busqueda");
+        System.out.println("Metodo Busqueda Binaria");
 
     }
     
-    public int getCode(){
-        System.out.println("Ingrese codigo: ");
-        int codigo = scanner.nextInt();
-        System.out.println("Codigo ingresado: " + codigo);
-        return codigo;
+    public int getEdad(){
+        System.out.println("Ingrese edad: ");
+        int edad = scanner.nextInt();
+        System.out.println("Edad ingresada: " + edad);
+        return edad;
     }
 
     public void showMessage(String message){
